@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made by @spavera",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -38,7 +38,7 @@ export const botConfig = {
   commands: {
     // Bot owner user IDs (comma-separated in OWNER_IDS env var).
     // Owners can access owner/admin-level bot commands.
-    owners: process.env.OWNER_IDS?.split(",") || [],
+    owners: process.env.901599215325683753?.split(",") || [],
 
     // Default wait time between command uses (in seconds).
     defaultCooldown: 3, 
@@ -63,9 +63,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#f1c40f",
+      approved: "#000001",
+      denied: "#ff0000",
     },
 
     // How long users must wait before submitting another application (hours).
